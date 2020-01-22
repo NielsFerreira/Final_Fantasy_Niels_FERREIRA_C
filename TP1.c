@@ -2,7 +2,8 @@
 
 int main(){
 	
-	printf("Debut du programme");
+	printf("Debut du programme\n");
+	
 	int vie = 100;
 	
 	printf("100 points de vie\n");
