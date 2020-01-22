@@ -6,12 +6,15 @@ int main(){
 	
 	int vie = 100;
 	
-	printf("100 points de vie\n");
+		printf("J'ai 100HP, commencons le combat.\n");
+		
+		while(vie > 0){
+			printf("coup d'epee !\n");
 	
-	printf("coup d'epee !\n");
+			vie = vie - 10;
 	
-	vie = vie - 10;
+			printf("%d\n",vie);
+		}
 	
-	printf("%d",vie);
-	
+	printf("\nC'etait un adversaire coriace.");
 }
